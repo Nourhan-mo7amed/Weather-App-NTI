@@ -32,7 +32,7 @@ class ErrorBoxWidget extends StatelessWidget {
             ),
             // show error message
             Text(
-              weather!.appError!.message ?? 'Unknown Error',
+              weather!.appError!.message,
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Theme.of(context).colorScheme.onError,
